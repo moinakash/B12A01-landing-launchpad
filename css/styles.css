@@ -119,6 +119,7 @@ nav{
 
 }
 
+
 /* Second Section */
 
 .Second-section {
@@ -138,6 +139,7 @@ nav{
 
 .Second-section-user {
   display: flex;
+  align-items: center;
   align-content: center;
   justify-content: center;
   gap: 158px;
@@ -151,6 +153,10 @@ nav{
   font-family: "Inter", sans-serif;
   font-size: 20px;
   color: #0000005b;
+}
+
+.types {
+  text-align: center;
 }
 
 
@@ -171,6 +177,8 @@ nav{
 }
 .third-section-reviews {
   display: flex;
+  width: 100%;
+  justify-content: center;
   gap: 20px;
 
 }
@@ -294,4 +302,50 @@ textarea {
     padding: 18px 35px;
     border-radius: 10px;
     border: none;
+}
+
+
+/* Footer */
+
+.footer-section {
+  margin: 104px 0px 0px;
+  background-color: #FFFFFF;
+}
+
+.footer-content {
+  width: 80%;
+  max-width: 631px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+.footer-content h2 {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #4E47FF;
+}
+
+.footer-content p {
+  font-family: "Inter", sans-serif;
+  color: #8987A1;
+  text-align: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+   list-style: none;
+   
+}
+
+.footer-content li a {
+   font-family: "Inter", sans-serif;
+  color: #8987A1;
+  text-decoration: none;
 }
