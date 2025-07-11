@@ -3,6 +3,9 @@
     padding: 0px;
 }
 
+body{
+    background-color: #F5F8FF;
+}
 
 .inter-black {
   font-family: "Inter", sans-serif;
@@ -114,4 +117,39 @@ nav{
   border-radius: 48px;
  height: 400px;
 
+}
+
+/* Second Section */
+
+
+.Second-section {
+  margin: 100px auto auto;
+  padding: 50px 80px ;
+  background-color: #4d47ff10;
+  border-radius: 24px;
+}
+
+.Second-section-title h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Second-section-user {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 158px;
+}
+.Second-section-user h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  color: #4E47FF;
+}
+.Second-section-user p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #0000005b;
 }
