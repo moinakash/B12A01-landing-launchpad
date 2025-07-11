@@ -277,10 +277,11 @@ nav{
 
 .contact-section {
 
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 100px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  gap: 100px;                     
+  padding: 50px 80px;             
 }
 .contact-content h3 {
   font-size: 97px;
